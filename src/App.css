@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.all_post_card {
   display: flex;
-  flex-direction: column;
+}
+.card-height {
+  height: 300px;
+}
+.card-title {
+  text-align: justify;
+}
+.card-title h4 {
+  font-size: 20px !important;
+  font-weight: bold;
+}
+.card-des {
+  text-align: justify;
+}
+.blog_head {
+  text-align: center;
+  margin: 25px 0;
+}
+.card-buttons {
+  position: absolute;
+  display: flex;
+  margin-top: 20px;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  bottom: 25px;
+  width: 90%;
 }
-
-.App-link {
-  color: #61dafb;
+.see_det {
+  cursor: pointer;
+  text-decoration: none;
+  color: #606060;
+  font-size: 17px;
+  font-weight: bold;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.mod_btn {
+  cursor: pointer;
+}
+.crt {
+  color: #0f13eedc;
+}
+.del {
+  color: #f50000;
+}
+.card-body input[type="submit"] {
+  margin-top: 25px;
+  /* color: rgb(0, 0, 0) !important; */
+}
+.card_details {
+  width: 330px;
+  margin: 40px auto;
+}
+.card_det_head {
+  margin: 20px 0;
+}
+.card_det_head h1 {
+  font-size: 50px;
+}
+.page-link {
+  cursor: pointer;
+}
+.search_bar > input {
+  width: 350px;
+  height: 30px;
+  /* border: none; */
+}
+.search_bar > input:focus {
+  outline-width: 0;
 }
